@@ -1,0 +1,216 @@
+@media (max-width: 575px) {
+    .container {
+        max-width: 300px;
+    }
+    .header {
+        &__logo {
+            width: 150px;
+        }
+        &__official {
+            display: none;
+        }
+        &__phone {
+            font-size: 13px;
+            line-height: 13px;
+        }
+    .button {
+        width: 115px;
+        height: 30px;
+        font-size: 11px;
+    }
+    }
+    .promo {
+        min-height: 600px;
+        padding: 21px 0 20px 0;
+        &__wrapper {
+            align-items: center;
+            padding: 40px 0 20px 0;
+            margin-top: 50px;
+        }
+        &__header {
+            font-size: 24px;
+            line-height: 24px;
+        }
+        &__subheader {
+            font-size: 14px;
+            margin-top: 4px;
+        }
+        &__icons {
+            width: 320px;
+        }
+        &__icon {
+            font-size: 12px;
+            line-height: 12px;
+        }
+        .button {
+            &_main {
+                width: 250px;
+                font-size: 14px;
+            }
+        }
+        &__link {
+            font-size: 13px;
+            line-height: 13px;
+        }
+        }
+    .benefits {
+        padding: 50px 0 65px 0;
+        .title {
+            font-size: 20px;
+        }
+        &__wrapper {
+            width: 320px;
+            margin-top: 30px;
+        }
+        &__icons {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+        }
+        &__icon {
+            img {
+                margin-bottom: 10px;
+            }
+        }
+        &__subtitle {
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+    }
+    .consultation {
+        min-height: 42 0px;
+        padding: 30px 0 25px 0;
+        &__descr {
+            font-size: 14px;
+            line-height: 15px;
+        }
+    .title {
+        &_left {
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+    }
+    .carousel {
+        padding: 70px 0;
+        &__inner {
+            img {
+                width: 300px;
+                height: 200px;
+                display: flex;
+            }
+        }
+        .slick-dots {
+            width: 320px;
+            margin-top: 20px;
+            padding: 0;
+            text-align: center;
+            display: flex; // поставить кнопки в ряд
+            justify-content: center; // выровнять по центру
+            list-style: none; // убираем черные маркеры
+        }
+        .slick-dots button {
+            background: gray; // цвет фона
+            border: none; // без рамки
+            border-radius: 50%; // радиус закругления
+            height: 15px; // высота точки
+            width: 15px; // ширина точки
+            margin: 5px; // отступы между точками
+            outline: none; // убираем обводку
+        }  
+        .slick-active button {
+            background: $main-color;
+        }
+        .slick-dots li button {
+            font-size: 0;
+            }
+    }
+    .catalog {
+        padding-bottom: 40px;
+        &__tabs {
+            margin-top: 30px;
+        }
+        &__tab {
+            width: 90px;
+            font-size: 10px;
+            line-height: 50px;
+            text-align: center;
+            align-items: center;
+            vertical-align: middle;
+        }
+        .title {
+            font-size: 20px;
+        }
+       &__content {
+        margin-top: 30px;
+    }
+}
+    .reviews {
+        &__wrapper {
+        width: 300px;
+        margin-top: 40px;
+    }
+        &-item {
+            flex-direction: column ;
+            align-items: center;
+            img {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        
+            &__descr {
+                width: 300px;
+            }
+            &__name {
+                font-size: 13px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                span {
+                    font-size: 12px;
+                }
+            }
+            &__text {
+                font-size: 12px;
+                line-height: 18px;
+            }
+    }}
+    .title {
+        font-size: 20px;
+    }
+    .footer {
+        &__info {
+            width: 320px;
+            padding: 20px 35px 30px 35px;
+            height: 200px;
+        }
+        &__addr {
+            font-size: 16px;
+            line-height: 15px;
+            margin-bottom: 25px;
+        }
+        &__phone {
+            font-size: 17px;
+            line-height: 17px;
+        }
+    }
+    .overlay {
+        width: 320px;
+        .feed-form {
+            width: 270px;
+        }
+        .button {
+            &_submit {
+                width: 270px;
+            }
+        }
+        .modal {
+            width: 290px;
+            padding: 20px 10px;
+            &__close {
+                top: 5px;
+                right: 3px;
+            }
+        }
+    }
+}
